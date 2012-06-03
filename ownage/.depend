@@ -1,0 +1,5 @@
+obj/main.o: src/main.cpp src/string_system.h src/solver.h
+obj/prefix_tree.o: src/prefix_tree.cpp src/prefix_tree.h
+obj/solver.o: src/solver.cpp src/solver.h src/string_system.h \
+ src/prefix_tree.h
+obj/string_system.o: src/string_system.cpp src/string_system.h
